@@ -1,0 +1,48 @@
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center
+}
+
+.item{
+	width:190px;
+	padding: 15px 0;
+	display: flex;
+	justify-content: space-around;
+	align-content: flex-start;
+	align-items: center;
+	border:1px solid #e5e5e5;
+	border-radius: 5px;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-left: 1%;
+	position: relative
+}
+
+.circle-img{
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+}
+
+.sort{
+	position: absolute;
+	top: 2px;
+	left:10px;
+	font-weight: bold;
+	font-size: 15px;
+	border-top: none;
+	border-left: none;
+	color: #e78170
+}
+.no-data{
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin: auto;
+	text-align: center
+}

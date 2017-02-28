@@ -1,0 +1,195 @@
+
+.basicInfo{
+	width:100%;
+	height: 50px;
+	line-height:50px;
+	font-size:16px;
+	border-bottom:1px solid #999;
+	padding-left:15px;
+}
+
+.service{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	font-size:16px;
+	border-bottom:1px solid #999;
+	padding-left:15px;
+}
+
+.formItem{
+	margin-top:15px;
+	text-align:left;
+}
+
+.allChosed{
+	width:460px;
+
+	@at-root{
+		.allChosedCont{
+			width:100%;
+			max-height:230px;
+			overflow:hidden;
+		}
+
+		.multiUpload{
+			width:100px;
+			height:100px;
+			border:1px dashed #999;
+			text-align:center;
+			cursor:pointer;
+			display:table;
+			margin-top:10px;
+			margin-left:10px;
+			float:left;
+
+			span{
+				display: table-cell;
+				vertical-align: middle;
+			}
+		}
+
+		.chosedOnePic{
+			width:100px;
+			height: 100px;
+			border:1px solid #e9e9e9;
+			float:left;
+			margin-left:10px;
+			margin-top: 10px;
+			position: relative;
+			z-index:9;
+
+			img{
+				width:100px;
+				height:100px;
+			}
+
+			&:hover{
+				.deleteBg{
+					display: block;
+				}
+			}
+
+			.deleteBg{
+				position:absolute;
+				bottom:0;
+				left:0;
+				width:100%;
+				height: 24px;
+				display: none;
+				background:rgba(0,0,0,.5);
+				text-align: center;
+
+				.deletePic{
+					width:24px;
+					height:24px;
+					background:url(../../resources/delete_1.png) no-repeat center;
+					background-size:24px 24px;
+					display: inline-block;
+					cursor:pointer;
+					
+					&:hover{
+						background:url(../../resources/delete_2.png) no-repeat center;
+						background-size:24px 24px;
+					}
+				}
+			}
+		}
+
+		.allChosedFooter{
+			width:100%;
+			height:50px;
+			text-align: right;
+
+			@at-root{
+				.footNums{
+					height: 50px;
+					line-height: 50px;
+					margin-left: 8px;
+					display: inline-block;
+					font-size:16px;
+				}
+			}
+		}
+	}
+}
+
+.tips{
+	width:100%;
+	height:20px;
+	line-height:20px;
+	font-size:12px;
+	color:#999;
+	margin-top:5px;
+}
+
+.mapContainer{
+	width:850px;
+	height:500px;
+	border:1px solid #e9e9e9;
+	display:flex;
+
+	@at-root{
+		.mapContNav{
+			width:240px;
+			height: 500px;
+			box-sizing:border-box;
+		}
+
+		.markResult{
+			width:100%;
+			height: 50px;
+			background:#f4f5f9;
+			color:#898a8c;
+			font-size:16px;
+			line-height: 50px;
+			padding-left:20px;
+		}
+
+		.markResultList{
+			width:100%;
+			height: 450px;
+			overflow-y: scroll;
+
+			.markResultListX{
+				width:100%;
+				padding:10px;
+				display: flex;
+				border-bottom:1px solid #e7e7eb;
+				cursor:pointer;
+
+				.listNav{
+					width:20px;
+					height: 100%;
+				}
+				.listCont{
+					flex:1;
+
+					.listContTitle{
+						font-size: 14px;
+					}
+
+					.listContX{
+						font-size:12px;
+					}
+				}
+			}
+		}
+
+		.markTips{
+			width:100%;
+			height: 50px;
+			font-size:12px;
+			line-height: 50px;
+			text-align: center;
+		}
+
+		.mapCont{
+			flex:1;
+		}
+	}
+}
+
+
+
+

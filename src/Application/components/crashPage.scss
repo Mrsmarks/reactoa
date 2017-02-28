@@ -1,0 +1,20 @@
+.wrap {
+	position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #404040;
+    z-index: 1000;
+    padding-top: 150px;
+    text-align: center;
+    color: #ddd;
+}
+
+.bg {
+	background: url(../resources/500.png) no-repeat center;
+	width: 128px;
+	height: 128px;
+	background-size: cover;
+	margin: 0 auto 16px;
+}

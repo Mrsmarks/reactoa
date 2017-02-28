@@ -1,0 +1,63 @@
+
+
+.header {
+	background: #404040;
+	height: 72px;
+}
+
+
+.user {
+	margin-top: 16px;
+	margin-right: 15px;
+	float: right;
+}
+
+.avatar {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	margin-right: 10px;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: rgb(251,168,42);
+}
+
+.headerNav {
+	width: 100%;
+}
+
+.wrapper {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 1000px;
+}
+.info {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 8px;
+}
+.name {
+	margin-top: 7px;
+	color: #aaa;
+}
+.dropdown {
+	text-align: right
+}
+
+.xiu {
+	display: inline-block;
+    background: #fff;
+    border-radius: 15px;
+    margin-right: 16px;
+}

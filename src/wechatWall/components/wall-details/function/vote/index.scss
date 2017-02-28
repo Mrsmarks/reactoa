@@ -1,0 +1,30 @@
+.delete-option {
+	position: absolute;
+    right: -24px;
+    top: 0;
+    cursor: pointer;
+    &:hover {
+    	color: rgb(224, 21, 21);
+    }
+}
+
+@media screen and (max-height: 1200px) {
+	.add-option-modal {
+		max-height: 700px;
+		overflow-y: auto;
+	}
+}
+
+@media screen and (max-height: 1000px) {
+	.add-option-modal {
+		max-height: 550px;
+		overflow-y: auto;
+	}
+}
+
+@media screen and (max-height: 800px) {
+	.add-option-modal {
+		max-height: 350px;
+		overflow-y: auto;
+	}
+}

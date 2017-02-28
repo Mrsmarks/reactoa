@@ -1,0 +1,35 @@
+.title {
+	border-left: 3px solid #2db7f5;
+    padding-left: 8px;
+    margin-bottom: 16px;
+}
+
+.case {
+	margin-left: 20px;
+}
+
+.wrap {
+	margin-top: 16px;
+	margin-left: 20px;
+}
+
+.row {
+	margin-bottom: 16px;
+}
+
+
+.conditions-wrap {
+	min-width: 300px;
+}
+
+.conditions-title {
+	margin-bottom: 8px;
+}
+
+.conditions-row {
+	margin-bottom: 16px;
+	text-indent: 2em;
+	&:last-child {
+		margin-bottom: 0px;
+	}
+}

@@ -1,0 +1,35 @@
+
+.loading {
+	background-color: #404040;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	padding-top: 100px;
+	z-index: 10000;
+}
+
+.zoomOut {
+	opacity: 0;
+	-webkit-transform: scale(2);
+	-moz-transform: scale(2);
+	transform: scale(2);
+
+	-webkit-transition: -webkit-transform 1s, opacity .6s;
+	-moz-transition: -moz-transform 1s, opacity .6s;
+	transition: transform 1s, opacity .6s;
+}
+
+.bg {
+	background: url(../resources/loading.svg) no-repeat center;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}

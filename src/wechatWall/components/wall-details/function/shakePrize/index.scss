@@ -1,0 +1,52 @@
+
+.prize-form-btns {
+	border-top: 1px solid #eee;
+	padding-top: 8px;
+	text-align: right;
+}
+
+.wrap {
+	overflow: hidden;
+}
+.preview {
+	float: left;
+	width: 240px;
+}
+.preview-img {
+	background: url(./img/award-phone.png) no-repeat center;
+	width: 226px;
+	height: 448px;
+}
+.form {
+	float: right;
+	width: 380px;
+	padding-top: 16px;
+}
+.table-title {
+	margin-bottom: 8px;
+	margin-top: 16px;
+	padding-left: 8px;
+	border-left: 3px solid #2db7f5;
+}
+
+.title {
+	border-left: 3px solid #2db7f5;
+	padding-left: 8px;
+	margin-bottom: 8px;
+	margin-top: 16px;
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+.noData {
+	margin: 16px 0;
+	color: #ccc;
+	text-indent: 1em;
+}
+		
+:global {
+	.shake-prize-table-row {
+		background-color: #fff;
+	}
+}

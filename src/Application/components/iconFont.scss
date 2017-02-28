@@ -1,0 +1,162 @@
+.iconFont {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+    &~span {
+        vertical-align: middle;
+    }
+}
+@font-face {font-family: 'iconfont';
+    src: url('../resources/font/iconfont.eot'); /* IE9*/
+    src: url('../resources/font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../resources/font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../resources/font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:12px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+    min-width: 14px;
+    height:12px;
+}
+
+.icon-eye:before { content: "\e600"; }
+.icon-close:before { content: "\e601"; }
+.icon-gift:before { content: "\e602"; }
+.icon-more:before { content: "\e603"; }
+.icon-layout:before { content: "\e623"; }
+.icon-theam:before { content: "\e624"; }
+.icon-game:before { content: "\e604"; }
+.icon-jiaose:before { content: "\e617"; }
+.icon-user:before { content: "\e605"; }
+.icon-vote:before { content: "\e606"; }
+.icon-book:before { content: "\e607"; }
+.icon-shujuyidong:before { content: "\e618"; }
+.icon-down:before { content: "\e608"; }
+.icon-shake:before { content: "\e609"; }
+.icon-picture:before { content: "\e60a"; }
+.icon-draw:before { content: "\e60a"; }
+.icon-wechat:before { content: "\e60b"; }
+.icon-setting:before { content: "\e619"; }
+.icon-jiabin:before { content: "\e60c"; }
+.icon-qrcode:before { content: "\e60d"; }
+.icon-doing:before { content: "\e625"; }
+.icon-xiu:before { content: "\e60e"; }
+.icon-tongji:before { content: "\e61a"; }
+.icon-mingancishezhi:before { content: "\e61b"; }
+.icon-loading:before { content: "\e629"; }
+.icon-pengzhuangfenxi:before { content: "\e61c"; }
+.icon-qiandao:before { content: "\e61d"; }
+.icon-message:before { content: "\e60f"; }
+.icon-all:before { content: "\e626"; }
+.icon-screen:before { content: "\e610"; }
+.icon-zhibo:before { content: "\e61e"; }
+.icon-money:before { content: "\e611"; }
+.icon-up:before { content: "\e612"; }
+.icon-end:before { content: "\e627"; }
+.icon-gongneng:before { content: "\e61f"; }
+.icon-design:before { content: "\e613"; }
+.icon-pengzhuang:before { content: "\e614"; }
+.icon-shenhe:before { content: "\e620"; }
+.icon-sign:before { content: "\e615"; }
+.icon-kaidanmu:before { content: "\e621"; }
+.icon-tpl:before { content: "\e628"; }
+.icon-jiang:before { content: "\e616"; }
+.icon-prize:before { content: "\e616"; }
+.icon-kongzhishu:before { content: "\e622"; }
+.design:before { content: "\e613"; }
+// .eye {
+//     background: url(../resources/iconFont/eye.svg) no-repeat;
+//     background-size: cover;
+// }
+// .design {
+//     background: url(../resources/iconFont/design.svg) no-repeat;
+//     background-size: cover;
+// }
+
+// .more {
+//     background: url(../resources/iconFont/more.svg) no-repeat;
+//     background-size: cover;
+// }
+
+// .screen {
+//     background: url(../resources/iconFont/screen.svg) no-repeat;
+//     background-size: cover;
+// }
+
+// .qrcode {
+//     background: url(../resources/iconFont/qrcode.svg) no-repeat;
+//     background-size: cover;
+// }
+
+// .down {
+//     background: url(../resources/iconFont/down.svg) no-repeat;
+//     background-size: cover;
+// }
+
+// .shake{
+//     background: url(../resources/iconFont/shake.svg) no-repeat;
+//     background-size: cover;
+// }
+
+// .draw{
+//     background: url(../resources/iconFont/draw.svg) no-repeat;
+//     background-size: cover;
+// }
+
+// .message{
+//     background: url(../resources/iconFont/message.svg) no-repeat;
+//     background-size: cover;
+// }
+
+// .money{
+//     background: url(../resources/iconFont/money.svg) no-repeat;
+//     background-size: cover;
+// }
+
+// .luck{
+//     background: url(../resources/iconFont/luck.svg) no-repeat;
+//     background-size: cover;
+// }
+
+// .prize{
+//     background: url(../resources/iconFont/prize.svg) no-repeat;
+//     background-size: cover;
+// }
+
+// .sign{
+//     background: url(../resources/iconFont/sign.svg) no-repeat;
+//     background-size: cover;
+// }
+
+// .vote{
+//     background: url(../resources/iconFont/vote.svg) no-repeat;
+//     background-size: cover;
+// }
+
+
+// .user{
+//     background: url(../resources/iconFont/user.svg) no-repeat;
+//     background-size: cover;
+// }
+
+// .picture{
+//     background: url(../resources/iconFont/picture.svg) no-repeat;
+//     background-size: cover;
+// }
+
+// .xiu{
+//     background: url(../resources/iconFont/xiu.svg) no-repeat;
+//     background-size: cover;
+// }
+// .close{
+//     background: url(../resources/iconFont/close.svg) no-repeat;
+//     background-size: cover;
+// }
+// .wechat {
+//     background: url(../resources/iconFont/wechat.svg) no-repeat;
+//     background-size: cover;
+// }

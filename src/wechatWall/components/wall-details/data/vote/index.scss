@@ -1,0 +1,50 @@
+.container{
+	border-radius: 5px;
+	border: 1px solid #E9E9E9;
+	border-bottom: none
+}
+.items{
+	padding: 10px;
+	border-bottom: 1px solid #E9E9E9;
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+}
+.intro{
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content:flex-start;
+}
+.name{
+	margin-left: 20px;
+	font-size: 14px;
+}
+
+.b-font{
+	font-size: 20px;
+	font-weight: bold;
+	color: #87acd0
+}
+.check-vote{
+	display: flex;
+	align-items: center;
+	justify-content:flex-start;
+	flex-wrap: wrap;
+	>div{
+		width: 25%;
+		margin-bottom: 5px
+	}
+}
+
+.no-data{
+	position: absolute;
+	top:200px;
+	bottom:0;
+	left:0;
+	right:0;
+	margin: auto;
+	text-align: center;
+	font-size: 14px;
+	color: #2db7f5
+}

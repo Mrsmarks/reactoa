@@ -1,0 +1,1 @@
+export const bigScreenUrl = '/wechat-wall-screen/big-screen-entrance'

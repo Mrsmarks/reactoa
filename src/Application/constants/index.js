@@ -1,0 +1,6 @@
+export const APP_READY = 'APP_READY'
+export const APP_CRASH = 'APP_CRASH'
+export const LOGIN = 'LOGIN'
+export const LOGOUT = 'LOGOUT'
+export const FETCH_USERCONFIG_SUCCESS = 'FETCH_USERCONFIG_SUCCESS'
+export const FETCH_USERPUBLIC_LIST = 'FETCH_USERPUBLIC_LIST'

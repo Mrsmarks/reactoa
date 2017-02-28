@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>{%=o.htmlWebpackPlugin.options.title%}</title>
+	{% for (var css in o.htmlWebpackPlugin.files.css) { %}
+    <link href="{%=o.htmlWebpackPlugin.files.css[css] %}" rel="stylesheet">
+    {% } %}
+</head>
+<body>
+	<div id="app"></div>
+
+	<script type="text/javascript">
+		window.WX_CONFIG = {
+			baseURL: 'http://2016.wxadmin.adh123.cn'
+		}
+	</script>
+	<script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp"></script>
+	<script type="text/javascript" src="{%=o.htmlWebpackPlugin.options.vendorPath%}"></script>
+	{% for (var chunk in o.htmlWebpackPlugin.files.chunks) { %}
+    <script type="text/javascript" src="{%=o.htmlWebpackPlugin.files.chunks[chunk].entry%}"></script>
+    {% } %}
+</body>
+</html>

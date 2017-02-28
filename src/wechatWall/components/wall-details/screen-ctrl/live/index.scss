@@ -1,0 +1,40 @@
+.live-form{
+	background: #F7FBFD;
+	padding: 20px  30px 40px 30px;
+	border: 1px solid #e0e9f2;
+	border-radius: 3px;
+	width: 100%;
+	font-size: 14px
+}
+
+.content{
+	width: 100%;
+	padding: 10px 5px 0 5px
+}
+
+.content-item{
+	padding: 20px 20px;
+	border-bottom: 1px solid #E5E5E5;
+	display: flex;
+	flex-flow: row;
+	transition: all .4s ease;
+	justify-content: space-between;
+	.item-left{
+		width: 75%;
+	}
+
+	.item-right{
+		width: 25%;
+		text-align: left;
+		opacity: 0
+	}
+	&:hover{
+		background-color: #e0e9f2;
+	}
+	&:hover .item-right{
+		opacity: 1
+	}
+}
+
+input,button,select,textarea{outline:none}
+textarea{resize:none}

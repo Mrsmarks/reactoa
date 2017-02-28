@@ -1,0 +1,24 @@
+.title {
+	border-left: 3px solid #2db7f5;
+    padding-left: 8px;
+    margin-bottom: 16px;
+}
+
+.tpl {
+	margin-top: 8px;
+	img {
+		vertical-align: bottom;
+	}
+}
+
+.tpl-name {
+	margin-left: 8px;
+	display: inline-block;
+	vertical-align: bottom;
+	line-height: initial;
+}
+
+.delete {
+	opacity: 0;
+	color: #fff;
+}
